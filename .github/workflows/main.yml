@@ -34,6 +34,7 @@ jobs:
           godot-version: '4.4'
           paths: |
             res://test/
+          godot-net: true
           timeout: 5
           report-name: test_report.xml      
 

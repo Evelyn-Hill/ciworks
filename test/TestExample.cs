@@ -15,5 +15,10 @@ public class GdUnitExampleTest
           .HasLength(26)
           .StartsWith("This is an ex");
     }
+    [TestCase]
+    public void Example2()
+    {
+        AssertInt(4).IsEqual(3); 
+    }
 }
 
